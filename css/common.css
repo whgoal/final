@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'TmoneyRoundWindExtraBold';
+    font-size: 14px;
+    color: #333333;
+    background-color: #74d5ff;
+    height: 100%;
+}
+ul {
+    list-style: none;
+}
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #ffffff;
+}
+.clear {
+    clear: both;
+}
+@font-face {
+    font-family: 'TmoneyRoundWindExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 헤더 */
+
+header {
+    width: 100%;
+    height: 85px;
+    top: 0;
+    margin: 0 auto;
+    position: fixed;
+    background-color: #74d5ff7e;
+    z-index: 99;
+}
+header #top {
+    width: 100%;
+    margin-left: 100px;
+}
+header #logo {
+    float: left;
+    margin: 20px 0 0 0;
+}
+header img {
+    width: 150px;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 메인 메뉴 */
+
+header #main_menu {
+    margin-right: 200px;
+    height: 38px;
+    margin-top: 30px;
+    float: right;
+}
+header #main_menu ul {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 12px;
+    text-align: center;
+}
+header #main_menu li {
+    display: inline;
+    margin-left: 40px;
+}
+header #main_menu a:link {
+    color: #ffffff;
+}
+header #main_menu a:visited {
+    color: #ffffff;
+}
+header #main_menu a:hover {
+    color: #74d5ff;
+    padding: 6px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    transition: all ease 1s 0s;
+}
+#sub_menu a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #74d5ff;
+}
+#click {
+    border: solid 3px #74d5ff;
+    padding:2px;
+    border-radius: 20px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~ 메인 */
+
+section#main {
+    width: 970px;
+    margin: 0 auto;
+}
+.cloud1 {
+    top: 100px;
+    left: -20px;
+    width: 150px;
+    position: absolute;
+}
+.cloud2 {
+    width: 100px;
+    top: 150px;
+    right: 200px;
+    position: absolute;
+}
+.cloud3 {
+    top: 50px;
+    right: 500px;
+    width: 100px;
+    position: absolute;
+}
+#main3 {
+    width: 970px;
+    margin: 0 auto;
+}
+.txt4 {
+    position: absolute;
+    top: 1000px;
+    width: 950px;
+}
+.etc {
+    width: 100%;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~푸터 */
+
+footer {
+    height: 200px;
+    background-color: #B86400;
+    position: absolute;
+    top: 752px;
+    width: 100%;
+}
+footer #footer_grass {
+    height: 40px;
+    background-color: #79C600;
+}
+footer #footer_box {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 40px;
+    color: #6f3d00;
+}
+footer #footer_box #copyright {
+    margin: 0 auto;
+    text-align: center;
+}
+footer #footer_box #address {
+    margin: 0 auto;
+    text-align: center;
+}
+#grass {
+    width: 1200px;
+    margin: 0 auto;
+    height: 90px;
+}
+#grass img{
+    width: 1200px;
+    margin: 0 auto;
+    top: 640px;
+    position: absolute;
+}
+

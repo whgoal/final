@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/sub1.css">
+    <link rel="stylesheet" type="text/css" href="css/sub2.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>website trend 2022</title>
+</head>
+
+<body>
+    <header>
+        <section id="top">
+            <a id="logo" href="index.html"><img src="img/logo.png"></a>
+            <nav id="main_menu">
+                <ul>
+                    <li class="current"><a href="sub1.html">Grid layout</a></li>
+                    <li><a href="sub2.html">Glass Morphism</a></li>
+                    <li><a href="sub3.html">Mesh Gradient</a></li>
+                    <li><a href="sub4.html">3D Motion</a></li>
+                    <li><a href="sub5.html">Interaction</a></li>
+                </ul>
+            </nav>
+    </header>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+        var mybutton = document.getElementById("myBtn");
+        
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+<section id="main">
+        <nav id="sub_menu">
+            <ul>
+                <li id="click"><a href="sub3.html">HOW</a></li>
+                <li><a href="sub3_2.html">WHY</a></li>
+                <li><a href="sub3_3.html">MORE</a></li>
+            </ul>
+        </nav>
+    <img class="grid" src="img/mash_gradient.png">
+    <article class="main_img">
+        <img class="cloud1" src="img/cloud1.png">
+        <img class="cloud2" src="img/cloud2.png">
+        <img class="cloud3" src="img/cloud1.png">
+    </article>
+</section>
+
+<section id="main1">
+    <img class="txt3" src="img/con3.png">
+    <img class="img3" src="img/horang2.png">
+</section>
+
+
+
+
+
+    <section id="grass">
+        <img src="img/grass.png">
+    </section>
+    
+        <footer>
+            <section id="footer_grass"></section>
+            <section id="footer_box">
+                </div>
+                <div id="copyright">
+                    Copyright 2022. JIHAEMO. All rights reserved.
+                </div>
+                <div id="address">
+                    whgoal@kaywon.ac.kr |
+                    Digital media design 21 |
+                    Web publishing
+                </div>
+            </section>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,44 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 메인 */
+
+section#main {
+    width: 1200px;
+    margin: auto;
+}
+.horang {
+    width: 300px;
+    top: 380px;
+    margin-left: 450px;
+    z-index: 10;
+    position: absolute;
+}
+.txt1 {
+    width: 250px;
+    position: absolute;
+    top: 240px;
+    margin-left: 300px;
+}
+.txt2 {
+    width: 250px;
+    position: absolute;
+    top: 450px;
+    margin-left: 750px;
+}
+.sub_img #t1 {
+    position: absolute;
+    top: 255px;
+    margin-left: 315px;
+    font-size: 17px;
+    text-align: center;
+}
+.sub_img #t2 {
+    position: absolute;
+    top: 470px;
+    margin-left: 820px;
+    font-size: 18px;
+    text-align: center;
+}
+.sub_img span {
+    background-color: #ffdd00;
+}
+
+

@@ -1,0 +1,33 @@
+footer {
+    height: 200px;
+    background-color: #B86400;
+    position: absolute;
+    top: 1430px;
+    width: 100%;
+    z-index: -2;
+}
+#grass img{
+    width: 1200px;
+    margin: 0 auto;
+    top: 1320px;
+    position: absolute;
+    z-index: -2;
+}
+.gif1 {
+    width: 406px;
+    margin-left: 505px;
+    top: 194px;  
+    position: absolute;
+}
+.gif2 {
+width: 406px;
+margin-left: 40px;
+top: 544px;
+position: absolute;
+}
+.gif3 {
+width: 406px;
+margin-left: 507px;
+top: 845px;
+position: absolute;
+}

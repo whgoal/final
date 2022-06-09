@@ -1,0 +1,15 @@
+footer {
+    height: 200px;
+    background-color: #B86400;
+    position: absolute;
+    top: 1330px;
+    width: 100%;
+    z-index: -2;
+}
+#grass img{
+    width: 1200px;
+    margin: 0 auto;
+    top: 1220px;
+    position: absolute;
+    z-index: -2;
+}
